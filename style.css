@@ -305,7 +305,7 @@ nav {
 /* Hero */
 .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - 80px);
     background-image: url('asset/foto1.png');
     background-size: cover;
     background-position: center;
