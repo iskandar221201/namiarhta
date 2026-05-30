@@ -755,7 +755,31 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .footer-grid { grid-template-columns: 1fr; text-align: center; }
+    .footer-grid { 
+        grid-template-columns: 1fr; 
+        gap: 32px;
+    }
+    
+    footer h4 {
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    
+    footer ul {
+        text-align: left;
+    }
+    
+    footer li {
+        word-wrap: break-word;
+    }
+    
+    .footer-grid > div:first-child {
+        text-align: left;
+    }
+    
+    .footer-grid > div:first-child p {
+        text-align: left;
+    }
 }
 
 .footer-logo {
